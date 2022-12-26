@@ -333,6 +333,30 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay
 
+# UI styles
+PRODUCT_PACKAGES += \
+    AndroidEspressoThemeOverlay \
+    AndroidSnowPaintDropThemeOverlay \
+    AndroidVividThemeOverlay \
+    NexodusThemeAndroidOverlay \
+    NexodusThemeSettingsOverlay \
+    NexodusThemeSystemUIOverlay \
+    PacleggersThemeAndroidOverlay \
+    PacleggersThemeSettingsOverlay \
+    PacleggersThemeSystemUIOverlay \
+    ShishuAmalgamationThemeAndroidOverlay \
+    ShishuAmalgamationThemeSettingsOverlay \
+    ShishuAmalgamationThemeSystemUIOverlay \
+    ShishuIllusionsThemeAndroidOverlay \
+    ShishuIllusionsThemeSettingsOverlay \
+    ShishuIllusionsThemeSystemUIOverlay \
+    ShishuImmensityThemeAndroidOverlay \
+    ShishuImmensityThemeSettingsOverlay \
+    ShishuImmensityThemeSystemUIOverlay \
+    ShishuNightsThemeAndroidOverlay \
+    ShishuNightsThemeSettingsOverlay \
+    ShishuNightsThemeSystemUIOverlay
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
