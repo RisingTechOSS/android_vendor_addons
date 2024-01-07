@@ -357,6 +357,11 @@ PRODUCT_PACKAGES += \
     ShishuNightsThemeSettingsOverlay \
     ShishuNightsThemeSystemUIOverlay
 
+# Utility Overlays
+PRODUCT_PACKAGES += \
+    HideSmartSpace \
+    SmartSpaceOffset
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
