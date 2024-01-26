@@ -3,12 +3,12 @@
     <!-- DeviceDefault theme for a window that should look like the Settings app.  -->
     <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:navigationBarColor">?*android:attr/colorBackground</item>
+        <item name="android:navigationBarColor">#00FFFFFF</item>
         <item name="android:windowLightNavigationBar">false</item>
 
         <item name="android:colorPrimary">@*android:color/primary_dark_device_default_settings</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_device_default_settings</item>
-        <item name="android:colorBackground">@*android:color/primary_dark_device_default_settings</item>
+        <item name="android:colorBackground">#4D000000</item>
         <item name="android:colorEdgeEffect">@*android:color/edge_effect_device_default_dark</item>
 
         <item name="*android:colorListDivider">@*android:color/list_divider_color_dark</item>
@@ -16,8 +16,10 @@
 
         <!-- Transparency -->
         <item name="android:windowShowWallpaper">true</item>   <!--Nukes navbar fade-out on Android 8.1: No fixes-->
-        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsTranslucent">true</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBlurBehindEnabled">true</item>
+        <item name="android:windowBlurBehindRadius">150px</item>
     </style>
 
     <!-- DeviceDefault theme for day/night activities. Chaos -->

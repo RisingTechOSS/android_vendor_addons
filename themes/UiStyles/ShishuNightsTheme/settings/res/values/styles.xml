@@ -20,5 +20,17 @@
            parent="@*android:style/TextAppearance.DeviceDefault.Widget.Toolbar.Subtitle">
 	<item name="android:layout_gravity">center</item>
     </style>
+    
+    <!-- xd. Action Bar -->
+    <style name="xd_toolbar.Expanded" parent="xd_toolbar.Collapsed">
+        <item name="android:textSize">35dp</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <!-- xd. ToolBar Collapsed -->
+    <style name="xd_toolbar.Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">20dp</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
 
 </resources>

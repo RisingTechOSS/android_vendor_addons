@@ -2,7 +2,7 @@
 <resources>
     <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.DeviceDefault.Light">
         <!-- From Theme.Material.Light.LightStatusBar -->
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightStatusBar">false</item>
 
         <!-- From Theme.Material.Settings -->
         <item name="android:homeAsUpIndicator">@*android:drawable/ic_ab_back_material_settings</item>
@@ -37,7 +37,7 @@
         <!-- Add white nav bar with divider that matches material -->
         <item name="android:navigationBarDividerColor">@null</item>
         <item name="android:navigationBarColor">?*android:attr/colorBackground</item>
-        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightNavigationBar">false</item>
 
         <!-- Dialog attributes -->
         <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>

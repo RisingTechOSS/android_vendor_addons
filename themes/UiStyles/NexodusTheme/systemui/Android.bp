@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "NexodusThemeSystemUIOverlay",
-    theme: "NexodusThemeSystemUI",
-    product_specific: true,
-}
